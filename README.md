@@ -23,7 +23,7 @@ Compare to single-thread approach, the multi-thread approach has to
 2. reverse the String in each thread task (same as single-thread)
 3. join the Thread task's result in a certain order
 
-Multi-thread approach accelerates the **step 2**, but has to cost certain time on **step 1 & 3**.
+Multi-thread approach accelerates the **step 2**, but has to cost a certain amount of time on **step 1 & 3**.
 
 I assume, with the number of the working threads going up, the cost of **step 1 & 3** overall should go down.
 
